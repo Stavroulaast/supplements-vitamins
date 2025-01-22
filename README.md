@@ -9,21 +9,20 @@ Exploratory Data Analysis (EDA) was conducted on this dataset, covering insights
 ## Index of files
 
 **.ipynb** files
-  **Pharmacy24webscrape_final.ipynb** Data collection - webscraping of online pharmacy
-  **EDA_SupVitDataset.ipynb** Data cleaning, processing, analysis and visualization of the extracted dataset
+  **Pharmacy24webscrape_final.ipynb**:  Data collection - webscraping of online pharmacy
   
-  
-**.csv** file
-  **SupVit_Dataset.csv** The extracted dataset includes detailed information on various products within the category of supplements and vitamins
-    the product_name (a combination of the product's name and a short description)
-    category (indicating the product's category)
-    normal_price (the original price of the product)
-    discount_price (the price after applying discounts)
-    reviews_count (the number of reviews received)
-    rating (the average product rating)
-    discount% (calculated as (normal_price - discount_price) / normal_price). 
+  **EDA_SupVitDataset.ipynb**:  Data cleaning, processing, analysis and visualization of the extracted dataset
     
-  Additionally, a weighted_average metric was computed to assess product popularity and quality, factoring     in rating (weighted at 60%) and reviews_count (weighted at 40%) using the formula: (rating * 0.6 +           reviews_count * 0.4) / (0.6 + 0.4). 
+**.csv** file
+  **SupVit_Dataset.csv**:  The extracted dataset includes detailed information on various products within the category of supplements and vitamins
+    **product_name**: a combination of the product's name and a short description)
+    **category**: indicating the product's category
+    **normal_price**: the original price of the product
+    **discount_price**: the price after applying discounts
+    **reviews_count**: the number of reviews received
+    **rating**: the average product rating
+    **discount%**: calculated as (normal_price - discount_price) / normal_price)
+    **weighted_average metric**: computed to assess product popularity and quality,using the formula: (rating * 0.6 + reviews_count * 0.4) / (0.6 + 0.4). 
   
 
 
