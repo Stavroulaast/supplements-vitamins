@@ -15,14 +15,16 @@ Exploratory Data Analysis (EDA) was conducted on this dataset, covering insights
     
 **.csv** file
   **SupVit_Dataset.csv**:  The extracted dataset includes detailed information on various products within the category of supplements and vitamins
-    **product_name**: a combination of the product's name and a short description)
-    **category**: indicating the product's category
-    **normal_price**: the original price of the product
-    **discount_price**: the price after applying discounts
-    **reviews_count**: the number of reviews received
-    **rating**: the average product rating
-    **discount%**: calculated as (normal_price - discount_price) / normal_price)
-    **weighted_average metric**: computed to assess product popularity and quality,using the formula: (rating * 0.6 + reviews_count * 0.4) / (0.6 + 0.4). 
+|**Column.**| **Description** |
+|:-------:|:-------------------|
+|**product_name**:| a combination of the product's name and a short description)
+|**category**:| indicating the product's category
+|**normal_price**:| the original price of the product
+|**discount_price**:| the price after applying discounts
+|**reviews_count**:| the number of reviews received
+|**rating**:| the average product rating
+|**discount%**:| calculated as (normal_price - discount_price) / normal_price)
+|**weighted_average metric**:|computed to assess product popularity and quality,using the formula: (rating * 0.6 + reviews_count * 0.4) / (0.6 + 0.4). 
   
 
 
