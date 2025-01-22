@@ -15,7 +15,7 @@ Exploratory Data Analysis (EDA) was conducted on this dataset, covering insights
     
 **.csv** file
   **SupVit_Dataset.csv**:  The extracted dataset includes detailed information on various products within the category of supplements and vitamins
-|**Column.**| **Description** |
+|**Column**| **Description** |
 |:-------:|:-------------------|
 |**product_name**:| a combination of the product's name and a short description)
 |**category**:| indicating the product's category
