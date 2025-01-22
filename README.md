@@ -9,6 +9,7 @@ Exploratory Data Analysis (EDA) was conducted on this dataset, covering insights
 ## Index of files
 
 **.ipynb** files
+
   **Pharmacy24webscrape_final.ipynb**:  Data collection - webscraping of online pharmacy
   
   **EDA_SupVitDataset.ipynb**:  Data cleaning, processing, analysis and visualization of the extracted dataset
